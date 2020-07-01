@@ -14,5 +14,8 @@ RSpec.describe 'Unauthenticated users' do
     visit '/orders'
 
     expect(current_path).to eq('/login')
+
+
+    
   end
 end
